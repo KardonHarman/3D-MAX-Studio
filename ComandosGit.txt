@@ -1,0 +1,16 @@
+Git init = crear un repositorio.
+git init --bare = Repositorio Central.
+git status = Nos informa del estado del repositorio.
+git add <file> = Incluye el archivo al indice o lo actualiza.
+git rm --cached <file> = sacar el archivo del indice.
+git commit -m "Mensaje" = hacer un commit.
+git checkout -- <file> = Descartr los cambios del directorio de trabajo.
+git commit -a -m "Mensaje" = Se agrega el archivo modificado y se hace un commit.
+git add . = Se agregan todos los archivos al indice
+git log = Muestra el registro de los commit ya hechos del mas reciente al mas antiguo.
+git diff = Nos muestra un resumen de los archivos modificado y que fue lo que se modifico
+git diff --cached = Muestra lo que se ha modificado de los archivos.
+git remote add origin <url> = Agregar un repo remoto.
+git pull <origin> master = Descargar archivos de la rama master
+git push <origin> master = Subir archivos de la rama master
+
